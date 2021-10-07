@@ -17,3 +17,7 @@ Mengapa _Object Oriented Programming_? OOP (_Object Oriented Programming_) masih
 Contoh Class
 
 </center>
+
+Gambar diatas mencontohkan gambaran umum dari konsep OOP, dimana terdapat sebuah _blueprint_ Kucing, _Attributes_ yang dimiliki Kucing, dan kemampuan / _Function_ yang dapat dilakukan oleh kucing. Dalam _Object Oriented Programming_ (OOP), _Class_ merupakan sebuah **_blueprint_** yang dapat dikembangkan untuk membuat sebuah **_Object_**.
+
+**_Blueprint_** ini merupakan sebuah _Template_ yang didalamnya menjelaskan seperti apa ciri-ciri dan perilaku dari _Object_ itu (berupa _Properties_ ataupun _Function_). Dalam dunia pemrograman khususnya dalam paradigma OOP, kita sering membuat banyak _Object_ dengan jenis yang sama. Dengan membuat _blueprint_ ini kita dapat mengurangi duplikasi kode dalam membuat _Object_ yang serupa.

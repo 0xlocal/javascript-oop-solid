@@ -1,60 +1,60 @@
 # GLOSARIUM
 
-<center>
+<p align="center">
 
 ## A
 
-</center>
+</p>
 
 ### Architecture
 
 > Sebuah pola perencanaan yang menentukan bentuk dan struktur keseluruhan perangkat lunak (software).
 
-<center>
+<p align="center">
 
 ## C
 
-</center>
+</p>
 
 ### Coupling
 
 > Ketergantungan antar modul satu dengan modul lainnya.
 
-<center>
+<p align="center">
 
 ## D
 
-</center>
+</p>
 
 ### Debug
 
 > Proses mengidentifikasi atau menghapus error pada sebuah perangkat keras atau perangkat lunak.
 
-<center>
+<p align="center">
 
 ## E
 
-</center>
+</p>
 
 ### Entity / Entitas
 
 > Objek yang mempresentasikan sesuatu yang nyata dan dapat dibedakan dari sesuatu yang lain. Contoh: Mahasiswa, Karyawan, dsb.
 
-<center>
+<p align="center">
 
 ## F
 
-</center>
+</p>
 
 ### Functional / Fungsional
 
 > Salah satu paradigma dalam pemrograman, dimana struktur dalam kode program disusun murni hanya dari fungsi (function) yang mendeskripsikan apa yang ingin dilakukan.
 
-<center>
+<p align="center">
 
 ## I
 
-</center>
+</p>
 
 ### Intuitif
 
@@ -76,11 +76,11 @@
 
 > Sebuah Objek Kelas (Object Class) yang menyediakan sebuah "kontrak" atau perjanjian implementasi metode (Method).
 
-<center>
+<p align="center">
 
 ## K
 
-</center>
+</p>
 
 ### Konkret
 
@@ -94,11 +94,11 @@
 
 > Tipe data yang nilainya tetap.
 
-<center>
+<p align="center">
 
 ## P
 
-</center>
+</p>
 
 ### Pattern
 
@@ -112,11 +112,11 @@
 
 > Atribut yang menjadi anggota dari suatu kelas, dan digunakan untuk menyimpan data yang relevan dengan kelas.
 
-<center>
+<p align="center">
 
 ## S
 
-</center>
+</p>
 
 ### Software Developer
 
