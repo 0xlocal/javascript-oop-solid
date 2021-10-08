@@ -144,3 +144,27 @@ class Kucing {
 ```
 
 Pada potongan kode di atas, kita dapat melihat _Property_ yang ada pada sebuah _Class_. Umumnya, setiap _Property_ memiliki struktur dasar seperti terdapat _modifier_, _data type_, nama konstanta / variable, dan nilai.
+
+## Function
+
+_Function_ atau fungsi merupakan sebuah prosedur yang memiliki keterkaitan dengan pesan atau _Object_. Ketika kita memanggil sebuah fungsi maka sebuah mini-program akan dijalankan. _Function_ sendiri bisa diartikan sebagai cara sederhana untuk mengatur program buatan kita. Contoh, hewan memiliki beberapa behavior atau fungsi yang dapat ia lakukan seperti makan, berjalan, atau berkomunikasi dengan hewan lainnya.
+
+```javascript
+class Kucing (
+    var color: String,
+    var height: Double,
+    var length: Double,
+    var weight: Double
+) {
+
+    fun purring() {
+        println("Meow ..")
+    }
+
+    fun eat() {
+        weight = weight + 1
+    }
+}
+```
+
+Jika kita perhatikan, sebuah fungsi dapat membuat _Object_ tersebut untuk menampilkan teks "Meow .." atau membuat kucing bersuara. Sebuah _Function_ juga dapat mengubah nilai dari salah satu _Property_ seperti pada contoh yaitu weight ketika kucing tersebut makan. Jadi, _Function_ merupakan salah satu akses untuk memodifikasi nilai dari _Property_ yang dimiliki oleh _Object_.
