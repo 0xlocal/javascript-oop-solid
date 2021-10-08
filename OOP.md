@@ -21,3 +21,106 @@ Contoh Class
 Gambar diatas mencontohkan gambaran umum dari konsep OOP, dimana terdapat sebuah _blueprint_ Kucing, _Attributes_ yang dimiliki Kucing, dan kemampuan / _Function_ yang dapat dilakukan oleh kucing. Dalam _Object Oriented Programming_ (OOP), _Class_ merupakan sebuah **_blueprint_** yang dapat dikembangkan untuk membuat sebuah **_Object_**.
 
 **_Blueprint_** ini merupakan sebuah _Template_ yang didalamnya menjelaskan seperti apa ciri-ciri dan perilaku dari _Object_ itu (berupa _Properties_ ataupun _Function_). Dalam dunia pemrograman khususnya dalam paradigma OOP, kita sering membuat banyak _Object_ dengan jenis yang sama. Dengan membuat _blueprint_ ini kita dapat mengurangi duplikasi kode dalam membuat _Object_ yang serupa.
+
+---
+
+## Class
+
+Seperti yang telah dijelaskan dalam pembahasan _Object_, _Class_ merupakan sebuah _blueprint_. Didalam _class_ ini kita mendefinisikan sesuatu yang merupakan _Attribute_ ataupun _Behavior_.
+
+| Attributes      | Function    |
+| --------------- | ----------- |
+| - String color  | + Playing() |
+| - Double height | + Sleep()   |
+| - Double length | + Eat()     |
+| - Double weight | + puring()  |
+
+Pada contoh sebuah _Class_ Kucing, _Attribute_ berupa warna, tinggi, lebar, dan berat. Sedangkan untuk _Behavior_ / _Function_ terdapat bermain, tidur, makan, bersuara, dan sebagainya.
+
+```Javascript
+class Kucing {
+  constructor(color, height, length, weight) {
+    this.color = color;
+    this.height = height;
+    this.length = length;
+    this.weight = weight;
+  }
+  /**
+   * Atribute / Properties
+   * Properties mempresentasikan karakteristik dari class (blueprint)
+   * Sebuah class memiliki properti yang berbeda
+   */
+  set color(value) {
+    this.color = value;
+  }
+
+  get color() {
+    return this.color;
+  }
+
+  set height(value) {
+    this.height = value;
+  }
+
+  get height() {
+    return this.height;
+  }
+
+  set length(value) {
+    this.length = value;
+  }
+
+  get length() {
+    return this.length;
+  }
+
+  set weight(value) {
+    this.weight = value;
+  }
+
+  get weight() {
+    return this.weight;
+  }
+
+  /**
+   * Function merupakan sebuah prosedur / mini program
+   * Ini merupakan cara sederhana untuk mengatur program kita
+   * dan juga memodifikasi properti yang dimiliki oleh sebuah object
+   * contohnya, kucing memilik beberapa behavior atau fungsi yang ia lakukan
+   * contoh: makan, berjalan, atau berkomunikasi dengan hewan lain.
+   */
+
+  // Bersuara
+  purring() {
+    console.log("Meow ...");
+  }
+
+  // makan
+  eat() {
+    this.weight = this.weight + 1;
+  }
+}
+```
+
+Mari kita membuat beberapa _Instance_ dari _Class_ Kucing ini. Pada dasarnya _Instance_ dan _Object_ adalah hal yang sama. Karena ketika membahas sebuah _Object_, kita tahu bahwa sebuah _Object_ adalah _Instance_ hal yang sama. Karena ketika membahas sebuah _Object_, kita tahu bahwa sebuah _Object_ adalah _Instance_ dari sebuah _Class_ yang kita buat, atau dapat dikatakan sebagai sebuah realisasi dari sebuah _Blueprint_. _Object_ yang terbentuk dari sebuah _Class_ akan memiliki hak akses terhadap keseluruhan isi _Class_. Perhatikan contoh berikut.
+
+```javascript
+const main = () => {
+  /**
+   * Object merupakan instance dari sebuah class
+   */
+
+  //membuat instance/object dari class Kucing
+  const persian = new Kucing();
+  persian.color = "putih";
+  persian.height = 24.0;
+  persian.length = 46.0;
+  persian.weight = 2.0;
+
+  //membuat instance/object dari class Kucing menggunakan constructor
+  const bengal = new Kucing("Coklat", 22.0, 39.0, 2.3);
+  const anggora = new Kucing("Abu-abu", 25.0, 41.0, 2.4);
+};
+
+main();
+```
